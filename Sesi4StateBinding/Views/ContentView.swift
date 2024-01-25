@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Sesi4StateBinding
+//  Sesi4PropertyWrapper
 //
 //  Created by Aditya Himawan on 25/01/24.
 //
