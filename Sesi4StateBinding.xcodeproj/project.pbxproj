@@ -26,6 +26,9 @@
 		3B244C982B62BD8A007D711F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244C862B62BD8A007D711F /* OnboardingView.swift */; };
 		3B244C992B62BD8A007D711F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244C872B62BD8A007D711F /* ContentView.swift */; };
 		3B244C9B2B62BEE2007D711F /* OnboardingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244C9A2B62BEE2007D711F /* OnboardingTwo.swift */; };
+		3B244C9D2B62C587007D711F /* OnboardingTwoSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244C9C2B62C587007D711F /* OnboardingTwoSingleView.swift */; };
+		3B244CA02B62C90A007D711F /* OnboardingTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244C9F2B62C90A007D711F /* OnboardingTwoView.swift */; };
+		3B244CA22B62D018007D711F /* CustomPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B244CA12B62D018007D711F /* CustomPageIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		3B244C862B62BD8A007D711F /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3B244C872B62BD8A007D711F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B244C9A2B62BEE2007D711F /* OnboardingTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwo.swift; sourceTree = "<group>"; };
+		3B244C9C2B62C587007D711F /* OnboardingTwoSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwoSingleView.swift; sourceTree = "<group>"; };
+		3B244C9E2B62C6C0007D711F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B244C9F2B62C90A007D711F /* OnboardingTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwoView.swift; sourceTree = "<group>"; };
+		3B244CA12B62D018007D711F /* CustomPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		3B244C612B62BD5F007D711F /* Sesi4StateBinding */ = {
 			isa = PBXGroup;
 			children = (
+				3B244C9E2B62C6C0007D711F /* Info.plist */,
 				3B244C702B62BD87007D711F /* App */,
 				3B244C802B62BD8A007D711F /* Model */,
 				3B244C722B62BD89007D711F /* Resources */,
@@ -147,6 +155,7 @@
 				3B244C832B62BD8A007D711F /* Subviews */,
 				3B244C862B62BD8A007D711F /* OnboardingView.swift */,
 				3B244C872B62BD8A007D711F /* ContentView.swift */,
+				3B244C9F2B62C90A007D711F /* OnboardingTwoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +165,8 @@
 			children = (
 				3B244C842B62BD8A007D711F /* OnboardingSingleView.swift */,
 				3B244C852B62BD8A007D711F /* CustomDotIndicator.swift */,
+				3B244C9C2B62C587007D711F /* OnboardingTwoSingleView.swift */,
+				3B244CA12B62D018007D711F /* CustomPageIndicator.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -240,13 +251,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B244CA02B62C90A007D711F /* OnboardingTwoView.swift in Sources */,
 				3B244C632B62BD5F007D711F /* Sesi4StateBindingApp.swift in Sources */,
 				3B244C992B62BD8A007D711F /* ContentView.swift in Sources */,
+				3B244C9D2B62C587007D711F /* OnboardingTwoSingleView.swift in Sources */,
 				3B244C972B62BD8A007D711F /* CustomDotIndicator.swift in Sources */,
 				3B244C952B62BD8A007D711F /* Onboarding.swift in Sources */,
 				3B244C9B2B62BEE2007D711F /* OnboardingTwo.swift in Sources */,
 				3B244C962B62BD8A007D711F /* OnboardingSingleView.swift in Sources */,
 				3B244C982B62BD8A007D711F /* OnboardingView.swift in Sources */,
+				3B244CA22B62D018007D711F /* CustomPageIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +397,7 @@
 				DEVELOPMENT_TEAM = 2LV65ZKNC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sesi4StateBinding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -416,6 +431,7 @@
 				DEVELOPMENT_TEAM = 2LV65ZKNC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sesi4StateBinding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

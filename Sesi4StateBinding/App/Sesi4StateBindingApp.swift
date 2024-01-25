@@ -11,7 +11,7 @@ import SwiftUI
 struct Sesi4StateBindingApp: App {
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            OnboardingTwoView()
         }
     }
 }
