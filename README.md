@@ -10,6 +10,6 @@
 ## Onboarding Z Stack
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/adityahimaone/SwiftUI-StateBinding/assets/30428194/e6cc935c-de8f-4f05-b5b9-db08af1b12bf" alt="Image 1" width="400" height="auto">
-    <img src="https://github.com/adityahimaone/SwiftUI-StateBinding/assets/30428194/5f39ca30-c185-4903-90e6-5d92b45e3f93" alt="Image 2" width="400" height="auto">
+    <img src="https://github.com/adityahimaone/SwiftUI-StateBinding/assets/30428194/7c108460-f138-43c9-ac66-881d363de061" alt="Image 1" width="400" height="auto">
+    <img src="https://github.com/adityahimaone/SwiftUI-StateBinding/assets/30428194/fcc8e2b9-daab-48db-a107-391af60c8551" alt="Image 2" width="400" height="auto">
 </div>
