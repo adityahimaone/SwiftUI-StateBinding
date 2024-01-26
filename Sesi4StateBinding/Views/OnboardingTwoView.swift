@@ -15,6 +15,13 @@ struct OnboardingTwoView: View {
     
     var body: some View {
         ZStack {
+            ZStack {
+                Image(tabs[selectedTab].image)
+                    .resizable()
+                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    .ignoresSafeArea()
+                    .padding(.top, 20)
+            }
             TabView(selection: $selectedTab) {
                 ForEach(tabs) { tab in
                     Group {
@@ -22,21 +29,12 @@ struct OnboardingTwoView: View {
                     }
                     .tag(tab.tag)
                 }
-               
             }
+            .padding(.bottom, 40)
             .tabViewStyle(PageTabViewStyle())
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
             .animation(.easeInOut, value: selectedTab)
-            .indexViewStyle(
-                PageIndexViewStyle(
-                    backgroundDisplayMode: .never
-                )
-            )
-            
-//            VStack {
-//                Spacer()
-//                CustomPageIndicator(count: tabs.count, selectedTab: $selectedTab)
-//                    .padding(.bottom,30)
-//            }
+            .ignoresSafeArea()
         }
         .ignoresSafeArea()
     }
