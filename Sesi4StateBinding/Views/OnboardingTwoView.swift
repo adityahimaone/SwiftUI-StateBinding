@@ -21,6 +21,7 @@ struct OnboardingTwoView: View {
                     .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                     .ignoresSafeArea()
                     .padding(.top, 20)
+                    .animation(.easeInOut, value: selectedTab)
             }
             TabView(selection: $selectedTab) {
                 ForEach(tabs) { tab in
